@@ -129,7 +129,7 @@ class Problem(ReactiveTransportManager, FlowManager, OutputManager,
         self.set_porosity(0.1)
         self.set_fluid_density(1e3) # Initialization # kg/m^3
         self.set_fluid_viscosity(0.893e-3)  # Pa sec
-        self.set_gravity([0.0, -9.80665]) # m/sec
+        self.set_gravity([0.0, -9.80665]) # m/sec^2
         self.set_permeability(1e-13) # m^2
 
     def set_flow_ibc(self):
