@@ -1,0 +1,11 @@
+pynb_checkpoints/
+__pycache__/
+.pytest_cache/
+*.pvd
+*.vtu
+*.h5
+*.xdmf
+*.obj
+*.npy
+*.csv
+*.mp4
